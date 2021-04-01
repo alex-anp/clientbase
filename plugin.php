@@ -40,34 +40,31 @@ $eplug_table_names = array(
         );
 
 $eplug_tables = array("
-	CREATE TABLE ".MPREFIX."clientbase (
+	CREATE TABLE ".MPREFIX."clientbase (                                                                
 	id INT(9) NOT NULL AUTO_INCREMENT,
-	sn INT(9) NOT NULL,
+	sn INT(9) NOT NULL,                                                                                                                 
 	state INT(1) DEFAULT '0',
-	name VARCHAR(255) DEFAULT NULL,
-	serial_no CHAR(20) DEFAULT NULL,
-	sale_date DATE DEFAULT NULL,
-	contact_person VARCHAR(255) DEFAULT NULL,
+	name VARCHAR(255) DEFAULT NULL,                                
+	rate INT(1) DEFAULT '0',                                                               
 	address VARCHAR(255) DEFAULT NULL,
-	phone CHAR(10) DEFAULT NULL,
-	phone_ext CHAR(4) DEFAULT NULL,
-	dealer_name VARCHAR(255) DEFAULT NULL,
-	email VARCHAR(255) DEFAULT NULL,
-	website VARCHAR(255) DEFAULT NULL,
-	ip_addr CHAR(15) DEFAULT NULL,
-	rate INT(1) DEFAULT '0',
+	phone CHAR(10) DEFAULT NULL,                                                              
+	phone_ext CHAR(4) DEFAULT NULL,                                                          
+	email VARCHAR(255) DEFAULT NULL,                               
+	website VARCHAR(255) DEFAULT NULL,                             
+	contact_person VARCHAR(255) DEFAULT NULL,                      
 	owner_id INT(9) DEFAULT NULL,
-	memo TEXT,
-	run_time DATETIME NOT NULL,
+	ip_addr CHAR(15) DEFAULT NULL,                                                          
+	memo TEXT,                                                     
+	run_time DATETIME NOT NULL, 
 	die_time DATETIME NOT NULL DEFAULT '2500-01-01 00:00:00',
-	UNIQUE KEY id (id)
-	) ENGINE=MYISAM
+	UNIQUE KEY id (id)                                                                   
+	) ENGINE=MYISAM   
 	",
 	"
-	CREATE TABLE ".MPREFIX."sn_list (
-	id INT(9) NOT NULL AUTO_INCREMENT,
-	owner INT(9) DEFAULT NULL,
-	UNIQUE KEY `id` (`id`)
+	CREATE TABLE ".MPREFIX."sn_list (                                      
+	id INT(9) NOT NULL AUTO_INCREMENT,                        
+	owner INT(9) DEFAULT NULL,                                
+	UNIQUE KEY `id` (`id`)                                      
 	) ENGINE=MYISAM
 	",
 );

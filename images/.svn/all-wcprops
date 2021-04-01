@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/378/trunk/src/clientbase/images
+END
+diff_page.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/355/trunk/src/clientbase/images/diff_page.png
+END
+add_page.png
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/352/trunk/src/clientbase/images/add_page.png
+END
+stat_page.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/352/trunk/src/clientbase/images/stat_page.png
+END
+icon.png
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/48/trunk/src/clientbase/images/icon.png
+END
+clientbase.png
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/378/trunk/src/clientbase/images/clientbase.png
+END
+icon_16.png
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/48/trunk/src/clientbase/images/icon_16.png
+END
+main_page.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/352/trunk/src/clientbase/images/main_page.png
+END
+edit_page.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/355/trunk/src/clientbase/images/edit_page.png
+END
+search_page.png
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/352/trunk/src/clientbase/images/search_page.png
+END
